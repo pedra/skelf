@@ -2,13 +2,13 @@
   "name": "test",
   "description": "Teste Application",
   "version": "1.0.0",
-  "main": "main.mjs",
+  "main": "app/app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-	"electron": "electron ."
+    "electron": "electron ."
   },
   "author": "Bill ocha",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "electron": "^31.2.0"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1"
+    "electron-squirrel-startup": "^1.0.1",
+    "os-utils": "^0.0.14"
   }
 }

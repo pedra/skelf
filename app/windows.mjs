@@ -17,14 +17,14 @@ class Windows {
 	config = {
 		width: 480,
 		minWidth: 370,
-		maxWidth: 800,
+		maxWidth: 1800,
 		height: 720,
 		minHeight: 640,
 		center: true,
 		fullscreenable: false,
 		maximizable: false,
 
-		//show: false,
+		show: false,
 		paintWhenInitiallyHidden: false,
 		icon: '',
 
